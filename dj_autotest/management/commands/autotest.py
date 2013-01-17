@@ -16,5 +16,3 @@ class Command(BaseCommand):
                 time.sleep(1)
         except KeyboardInterrupt:
             observer.stop()
-
-        observer.join()
