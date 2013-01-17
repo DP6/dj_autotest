@@ -1,2 +1,4 @@
 *.pyc
 build
+dist
+dj_autotest.egg-info

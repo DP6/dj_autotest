@@ -9,7 +9,11 @@ setup(
     url = '',
     license = 'GPL',
     packages = ['dj_autotest'],
-    package_data={'dj_autotest': ['management/commands/*']},
+    package_data={'dj_autotest': ['management/*.py', 'management/commands/*']},
 
     zip_safe=False,
+
+    install_requires=[
+        'watchdog',
+    ],
 )
