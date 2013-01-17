@@ -4,7 +4,7 @@ setup(
     name = 'dj_autotest',
     version = '0.1',
     description = "App to run tests automatically when the file is changed",
-    author = 'Binários Inglórios',
+    author = 'Binarios Inglorios',
     author_email = 'binarios.inglorios@dp6.com.br',
     url = '',
     license = 'GPL',
